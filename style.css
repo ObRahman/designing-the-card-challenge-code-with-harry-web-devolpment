@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.box{
+    width: 255px;
+    height: 414px;
+    background: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 6px 7px 3px 6px;
+    border: 1.50px solid rgb(104, 99, 99);
+    position: relative;
+    left: 41.50vw;
+}
+img{
+    border-radius: 2px;
+}
+span{
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid rgb(177, 174, 174);
+    padding: 3px 5px 5px 5px;
+    text-align: center;
+    margin-top: 4px;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    color: gray;
+}
+.bloghead{
+    margin-top: 2px;
+    font-family: "Roboto", sans-serif;
+}
+.box p{
+    padding-top: 5px;
+    text-align: justify;
+    font-family: "Playfair Display", serif;
+}
+.box button{
+    position: relative;
+    display: inline-block;
+    background: skyblue;
+    padding: 5px;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    top: 1%;
+    left: 30.5%;
+    font-family: "Anta", sans-serif;
+    font-size: 13.5px;
+    font-weight: bolder;
+}
+.box button:hover{
+    background: rgb(187, 213, 223);
+}
